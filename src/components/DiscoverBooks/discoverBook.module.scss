@@ -1,0 +1,95 @@
+.newBooksContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 3rem;
+
+  .wrapTexts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    h2 {
+      font-size: 1.2rem;
+    }
+
+    button {
+      align-items: center;
+      color: var(--blue);
+      font-size: 1rem;
+      border: 0;
+      background: none;
+    }
+  }
+}
+
+.newBooksList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-top: 1rem;
+
+  a {
+    width: 20rem;
+    outline: none;
+    text-decoration: none;
+    margin-right: 1.5rem;
+
+    background: url("../../assets/Oval.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+
+  .bookCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+
+    img {
+      border-radius: 6px;
+      width: 8rem;
+      height: 9.5rem;
+    }
+
+    .bookCardHero {
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+        color: var(--white);
+        font-weight: 700;
+
+        width: 90%;
+      }
+
+      span {
+        font-size: 0.6rem;
+        color: var(--white);
+
+        width: 90%;
+        margin-top: 0.6rem;
+      }
+    }
+  }
+}
+
+.readers {
+  display: flex;
+  align-items: center;
+
+  margin-top: auto;
+  svg {
+    color: #c8c8c8;
+  }
+
+  span {
+    margin-left: 0.25rem;
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,28 @@
+.reviewContainer {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.reviewList {
+  display: flex;
+  align-items: center;
+
+  margin-top: 1rem;
+  border-radius: 6px;
+
+  .reactPlayer {
+
+  }
+}
