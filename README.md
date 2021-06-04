@@ -1,9 +1,5 @@
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Gavan App</h3>
 
   <p align="center">
@@ -37,10 +33,10 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project have the objective of test my knowlege in Front-End. The project is a book app where the user can search books and see you details. Using the API Google Books for realize the requests to search the books.<br/>
+Why did i call the app gavan? Well, i based myself on what is considered to be one of the greatest readers humanity has ever known, Bhagavan Rajneesh.
 
-This project have the objective of test my knowlege in Front-End. The project is a book app where the user can search books and see you details. Using the API Google Books for realize the requests to search the books.
-Why did i call the app gavan? Well, well I based myself on what is considered to be one of the greatest readers humanity has ever known, Bhagavan Rajneesh.
+
 
 ### Built With
 
@@ -60,6 +56,7 @@ Install the dependencies:
   ```sh
   yarn install
   ```
+  
 
 ### Usage
 
