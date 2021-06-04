@@ -39,7 +39,7 @@
     }
   }
 
-  p {
+  html {
     width: 80%;
     margin: 4.5rem auto;
 
@@ -51,12 +51,11 @@
 }
 
 .readOptions {
-  width: 30%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem;
 
   background: var(--white);
   border-radius: 8px;
@@ -67,6 +66,7 @@
     align-items: center;
     outline: none;
     text-decoration: none;
+    margin-left: 2rem;
   }
 
   svg {
@@ -89,6 +89,7 @@
   button {
     display: flex;
     align-items: center;
+    margin-left: 2rem;
 
     border: 0;
     background: none;

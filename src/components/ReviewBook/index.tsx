@@ -1,6 +1,3 @@
-import React from 'react'
-import { FiBarChart2 } from 'react-icons/fi'
-import { Link } from 'react-router-dom'
 import styles from './review.module.scss'
 
 import ReactPlayer from 'react-player'

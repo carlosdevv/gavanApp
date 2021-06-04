@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { FiBookOpen, FiHeadphones, FiShare, FiPlus, FiX } from "react-icons/fi";
 
 import { SideBar } from "../../components/SideBar";
@@ -60,7 +60,7 @@ export function DetailPage() {
               <span>Publication Date: <strong>{book.volumeInfo.publishedDate}</strong></span>
             </div>
 
-            <p>{book.volumeInfo.description}</p>
+            <html>{book.volumeInfo.description}</html>
 
             <div className={styles.readOptions}>
               <a href={book.volumeInfo.previewLink}>
@@ -71,10 +71,10 @@ export function DetailPage() {
                 <FiHeadphones />
                 <span>Listen</span>
               </a>
-              <a href="">
+              <button disabled>
                 <FiShare />
                 <span>Share</span>
-              </a>
+              </button>
               {isInMyLibrary(book) ? (
                 <button className={styles.removeButton} onClick={() => removeBook(book.id)}>
                   <FiX />

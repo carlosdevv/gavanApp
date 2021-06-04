@@ -37,7 +37,7 @@ export function SearchContextProvider({ children }: SearchContextProviderProps) 
   const [book, setBook] = useState("");
   const [listBooks, setListBooks] = useState<ListBooks[]>([])
 
-  const [discoverIndex, setDiscoverIndex] = useState(5);
+  const [discoverIndex, setDiscoverIndex] = useState(3);
   const [discoverResults, setDiscoverResults] = useState<ListBooks[]>([]);
   const [readingNow, setReadingNow] = useState<ListBooks[]>([]);
   const apiKey = "AIzaSyDRbRVsAtP91VUDl1vQEzZx-dZYXbbusvo";

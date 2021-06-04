@@ -16,6 +16,10 @@
 .contentBooks {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+
+  .notBooksText{
+    margin-top: 1rem;
+  }
 }
 
 .bookThumbnail {

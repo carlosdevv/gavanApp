@@ -1,6 +1,5 @@
-import { nextTick } from "process";
-import { createContext, ReactNode, useEffect, useState } from "react";
-import api from "../services/api";
+/* eslint-disable array-callback-return */
+import { createContext, ReactNode, useState } from "react";
 
 type LibraryContextData = {
   addToMyLibrary: (book: any) => void;
@@ -38,17 +37,12 @@ export function LibraryContextProvider({ children }: LibraryContextProviderProps
 
   function addToMyLibrary(book: any) {
     setMyLibrary([...myLibrary, book])
-
-    console.log(book);
-    console.log(myLibrary)
   }
 
   function isInMyLibrary(book: any): boolean {
     let hasBook = false;
     myLibrary.map(item => {
-      if (item.id == book.id) {
-
-        console.log("achei");
+      if (item.id === book.id) {
         hasBook = true;
       }
     })
