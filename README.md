@@ -33,7 +33,7 @@
 
 ## About The Project
 
-This project have the objective of test my knowlege in Front-End. The project is a book app where the user can search books and see you details. Using the API Google Books for realize the requests to search the books.<br/>
+This project have the objective of test my knowlege in Front-End. The project is a app where the user can search books and see you details. Using the API Google Books for realize the requests to search the books.<br/>
 Why did i call the app gavan? Well, i based myself on what is considered to be one of the greatest readers humanity has ever known, Bhagavan Rajneesh.
 
 
