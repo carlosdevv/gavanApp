@@ -35,6 +35,32 @@
 
 This project have the objective of test my knowlege in Front-End. The project is a app where the user can search books and see you details. Using the API Google Books for realize the requests to search the books.<br/>
 Why did i call the app gavan? Well, i based myself on what is considered to be one of the greatest readers humanity has ever known, Bhagavan Rajneesh.
+<br/><br/>
+
+#### Within the scope of the project, there were the following challenges:
+
+###### HomePage
+
+1. Create a Pixel Perfect screen based on design above;
+2. The books must be clickable and redirect to **details** screen.
+
+###### Search
+
+In this screen the functionalities below are **mandatory**:
+
+1. See a list of books based on search query;
+2. Make it possible to search for more books with a "Load more" button;
+3. Search books by name;
+4. Click on one of the books to see their details.
+
+###### Books details
+
+In this screen the functionalities below are **mandatory**:
+
+1. See all information for the selected book.
+
+
+But, however, as a differential I build one more page, which is the "My Library" page in which it stores the user's favorite books.
 
 
 
@@ -45,6 +71,8 @@ Why did i call the app gavan? Well, i based myself on what is considered to be o
 * [Sass]
 * [Google Books API]
 
+
+what did i differently?
 
 
 ## Getting Started
