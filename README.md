@@ -77,7 +77,7 @@ You will also see any lint errors in the console.
 
 ## Contact
 
-Carlos Lopes - [@your_twitter](https://twitter.com/tiko_lo) - carloslopessf@gmail.com
+Carlos Lopes - (https://twitter.com/tiko_lo) - carloslopessf@gmail.com
 
 Project Link: [https://github.com/carlosdevv/gavanApp](https://github.com/carlosdevv/gavanApp)
 
