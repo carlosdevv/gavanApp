@@ -72,7 +72,6 @@ But, however, as a differential I build one more page, which is the "My Library"
 * [Google Books API]
 
 
-what did i differently?
 
 
 ## Getting Started
