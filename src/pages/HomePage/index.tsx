@@ -25,11 +25,8 @@ type ListBooks = {
   };
 }
 
-type HomeProps = {
-  allBooks: ListBooks[];
-}
 
-export function HomePage({ allBooks }: HomeProps) {
+export function HomePage() {
   const { book, handleChange, listBooks } = useContext(SearchContext);
 
   const urlVideo = "https://www.youtube.com/watch?v=ezDOLO2Fk5I&ab_channel=JackEdwardsJackEdwardsVerificado";

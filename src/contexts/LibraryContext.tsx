@@ -50,11 +50,9 @@ export function LibraryContextProvider({ children }: LibraryContextProviderProps
   }
 
   function removeBook(id: string) {
-
     const newLibrary = myLibrary.filter((book) => book.id !== id)
 
     setMyLibrary(newLibrary);
-
   }
 
 
