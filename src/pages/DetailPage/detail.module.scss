@@ -35,7 +35,8 @@
   padding: 3.5rem 2rem;
 
   @media (max-width: 375px) {
-    padding: 7.5rem 2rem;
+    padding: 7.5rem 2rem  2rem 2rem;
+    
   }
 
   width: calc(100vw - 3.25rem);
@@ -112,7 +113,9 @@
 }
 
 .readOptions {
-  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  margin: 1rem auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
