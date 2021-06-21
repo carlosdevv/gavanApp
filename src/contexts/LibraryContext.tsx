@@ -33,7 +33,7 @@ type LibraryContextProviderProps = {
 }
 
 export function LibraryContextProvider({ children }: LibraryContextProviderProps) {
-  const [myLibrary, setMyLibrary] = useState<ListBooks[]>([]);;
+  const [myLibrary, setMyLibrary] = useState<ListBooks[]>([]);
 
   function addToMyLibrary(book: any) {
     setMyLibrary([...myLibrary, book])

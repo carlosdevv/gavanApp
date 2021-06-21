@@ -4,6 +4,10 @@
   flex-direction: column;
   width: 90%;
 
+  @media (max-width: 768px) {
+    margin-left: 1rem;
+  }
+
   > div {
     display: flex;
     align-items: center;
@@ -21,7 +25,7 @@
   margin-top: 1rem;
 
   a {
-    width: 22rem;
+    width: 25rem;
     outline: none;
     text-decoration: none;
 
@@ -29,6 +33,10 @@
 
     background: #ecf2d7;
     border-radius: 8px;
+
+    @media (max-width: 480px) {
+      width: 20rem;
+    }
   }
 
   .bookCard {
@@ -40,6 +48,11 @@
       border-radius: 6px;
       width: 8rem;
       height: 12.5rem;
+
+      @media (max-width: 480px) {
+        width: 5.75rem;
+        height: 8.5rem;
+      }
     }
 
     .bookCardHero {

@@ -1,11 +1,11 @@
 import { useContext, useEffect, useState } from "react";
-import { FiBookOpen, FiHeadphones, FiShare, FiPlus, FiX } from "react-icons/fi";
+import { FiBookOpen, FiHeadphones, FiShare, FiPlus, FiX, FiArrowLeft } from "react-icons/fi";
 
-import { SideBar } from "../../components/SideBar";
 import styles from './detail.module.scss'
 import { useParams } from "react-router";
 import api from "../../services/api";
 import { LibraryContext } from "../../contexts/LibraryContext";
+import { Link } from "react-router-dom";
 
 interface DetailParams {
   id: string;
@@ -46,7 +46,9 @@ export function DetailPage() {
   return (
     <>
       <div className={styles.detailPage}>
-        <SideBar />
+        <Link to="/">
+          <FiArrowLeft size={35} />
+        </Link>
 
         {book && (
           <section className={styles.detailSection}>

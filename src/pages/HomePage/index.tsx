@@ -37,7 +37,6 @@ export function HomePage({ allBooks }: HomeProps) {
   return (
     <>
       <div className={styles.homePage}>
-        <SideBar />
 
         <section className={styles.homeSection}>
           <div className={styles.searchBarContainer}>
@@ -75,6 +74,8 @@ export function HomePage({ allBooks }: HomeProps) {
           </div>
 
         </section>
+
+        <SideBar />
       </div>
     </>
   )

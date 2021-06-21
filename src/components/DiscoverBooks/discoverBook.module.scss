@@ -5,6 +5,11 @@
 
   margin-top: 3rem;
 
+  @media (max-width: 768px) {
+    width: 90%;
+    margin-left: 1rem;
+  }
+
   .wrapTexts {
     display: flex;
     align-items: center;
@@ -28,7 +33,15 @@
 .newBooksList {
   display: flex;
   align-items: center;
+  width: 90vw;
   margin-top: 1rem;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  @media (max-width: 480px) {
+    width: 32rem;
+  }
 
   a {
     width: 20rem;
@@ -40,6 +53,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
+
+    @media (max-width: 768px) {
+      width: 17rem;
+    }
   }
 
   .bookCard {
@@ -51,6 +68,11 @@
       border-radius: 6px;
       width: 8rem;
       height: 9.5rem;
+
+      @media (max-width: 480px) {
+        width: 4.5rem;
+        height: 7rem;
+      }
     }
 
     .bookCardHero {
@@ -64,6 +86,10 @@
         font-weight: 700;
 
         width: 90%;
+
+        @media (max-width: 480px) {
+          font-size: 0.65rem;
+        }
       }
 
       span {
